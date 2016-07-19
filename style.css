@@ -1,0 +1,136 @@
+
+/*
+div{
+    float: left;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+}
+*/
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    line-height: 100px;
+     float: left;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #009dff;
+    line-height: 50px;
+     float: left;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+}
+.sidebar{
+    width: 25%;
+    height: 400px;
+    background-color: #87cea3;
+    line-height: 400px;
+     float: left;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+}
+.main{
+    width: 75%;
+    height: 400px;
+    background-color: #71a28b;
+    line-height: 400px;
+     float: left;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 100px;
+    background-color: #06649f;
+    line-height: 50px;
+     float: left;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+}
+
+
+.nav {
+    
+}
+
+.nav>li {
+    width:200px;
+    padding:5px 0px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    margin-left: -5px;
+    cursor: pointer;
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+}
+.nav>li:hover {
+    background: #fac7db;
+    color: #b5235c;
+}
+.nav>li:nth-child(2):hover {
+    background: #f5d99a;
+    color: #d66016;
+}
+.nav>li:nth-child(3):hover {
+    background: #2fad9f;
+    color: #0c4a43;
+}
+.nav>li:hover .submenu {
+    display: block;
+}
+.menu_sub {
+    font-size: 10px;
+    padding: 5px 0px 0px 0px;
+}
+.submenu {
+    width: 200px;
+    margin-left: -1px;
+    padding: 0px;
+    position: absolute;
+/*    background: #e2e0e0;*/
+    border: 1px solid #ccc;
+    border-radius:0px 0px 5px 5px;
+    top: 100%;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 15px;
+    display: none;
+}
+
+.submenu li {
+    list-style: none;
+    padding: 5px;
+    text-align:left;
+}
+
+.submenu li:hover {
+    background: #e3e1e1;
+    cursor: pointer;
+}
+.add {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: #fff;
+    font-size: 50px;
+    background: #982b2b;
+    border-radius: 50%;
+    text-align: center;
+}
